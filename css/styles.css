@@ -1,0 +1,108 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #64fe2e;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #ffbf00;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 90px;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -45px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #6e6e6e;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #6e6e6e;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px;
+}
+
+#main-content {
+  margin-bottom: 20px;
+}
+
+#content {
+  background-color: #df013a;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0 0 0 20px;
+}
+
+#content p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#content h4 {
+  margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+  #nav-list {
+    font-size: 0.00000em;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav-list {
+    font-size: 0.00000em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ #nav-list {
+    font-size: 0.00000em;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 60px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+
+}
