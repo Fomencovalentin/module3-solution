@@ -61,12 +61,14 @@ body {
   border-radius: 15px;
   text-align: center;
   padding: 0 0 0 20px;
+  margin-bottom: 20px;
 }
 
 #content p {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
+  text-align: justify;
 }
 
 #content h4 {
@@ -103,6 +105,10 @@ body {
 
   #collapsable-nav a { 
     font-size: 1.2em;
+  }
+
+  #content {
+    margin: 20px 20px 20px 20px;
   }
 
 }
